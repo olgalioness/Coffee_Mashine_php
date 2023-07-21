@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap');
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+.coffee-list {
+  background-image: url("img/background.jpg");
+  background-size: cover; /*contain*/
+}
+.coffee-item {
+  background-color: rgba(0, 0, 0, .7);
+  border-radius: calc(75px / 2);
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.coffee-item:hover {
+  background-color: rgba(50, 50, 50, .7);
+}
+
+.coffee-item img {
+  width: 75px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.coffee-item span {
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  margin-left: 30px;
+  letter-spacing: 1px;
+}
+
+.coffee-oper {
+  background-color: rgb(220, 220, 220);
+  padding: 15px;
+}
+
+.display {
+  border: 2px solid darkgreen;
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+.display span {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.progress-bar {
+  transition: none;
+}
+
+.cup img, .atm img {
+  width: 100%;
+}
+
+.cup img {
+  display: none;
+  opacity: 0;
+}
+
+.change-box {
+  border: 3px solid rgb(100, 100, 100);
+  background-color: rgb(200, 200, 200);
+  min-height: 100px;
+  box-sizing: border-box;
+  position: relative; 
+}
+
+.money img {
+  max-width: 200px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.cash-container {
+  position: absolute;
+  /* background-color: red; */
+  width: 70%;
+  height: 60%;
+  margin: 15% 7%;
+  overflow: hidden;
+}
+
+.atm {
+  position: relative;
+  z-index: 10;
+}
+.change-button, .change-box {
+  z-index: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
